@@ -16,3 +16,38 @@ navLinks.addEventListener("click", (e) => {
     navLinks.classList.remove("open");
     menuBtnIcon.setAttribute("class", "ri-menu-3-line");
 });
+
+const scrollRevealOptions = {
+    distance: "50px",
+    origin: "bottom",
+    duration: 1000,
+};
+
+// header container
+ScrollReveal().reveal(".header-content h1", {
+    ...scrollRevealOptions,
+});
+
+ScrollReveal().reveal(".header-btn", {
+    ...scrollRevealOptions,
+    delay: 500,
+});
+
+// service container
+ScrollReveal().reveal(".service-card", {
+    ...scrollRevealOptions,
+    interval: 500,
+});
+
+// price container
+ScrollReveal().reveal(".price-card", {
+    ...scrollRevealOptions,
+    interval: 500,
+});
+
+const swiper = new Swiper(".swiper", {
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
