@@ -4,7 +4,7 @@ Welcome to the Apollo Car Service repository! This project showcases a professio
 
 ## Live Demo
 
-Check out the live demo of Apollo Car Service: Live Demo
+Check out the live demo of Apollo Car Service: [Live Demo](https://lawo69.github.io/Apollo-Car-Service/).
 
 Thank you for checking out Apollo Car Service! If you have any questions or suggestions, feel free to reach out.
 
